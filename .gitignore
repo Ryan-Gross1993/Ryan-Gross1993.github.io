@@ -1,0 +1,14 @@
+.idea/
+*.iml
+*.DS_Store
+# Compiled java
+target/
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
