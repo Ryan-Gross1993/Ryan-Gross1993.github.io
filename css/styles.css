@@ -1,9 +1,13 @@
+body {
+    padding:none;
+    margin:none;
+}
+
 .homepage-hero-module {
     border-right: none;
     border-left: none;
     position: relative;
-    
-}
+ }
 .no-video .video-container video,
 .touch .video-container video {
     display: none;
@@ -16,11 +20,15 @@
     position: relative;
     bottom: 0%;
     left: 0%;
-    height: 100%;
+    height: 75%;
     width: 100%;
     overflow: hidden;
-    background: #000;
-    margin: 0 auto;
+
+    border-right: none;
+    border-left: none;
+
+
+    /*background: #000; */
 }
 .video-container .poster img {
     width: 100%;
@@ -30,7 +38,7 @@
 .video-container .filter {
     z-index: 100;
     position: absolute;
-    background: rgba(0, 0, 0, 0.4);
+    /* background: rgba(0, 0, 0, 0.4); */
     width: 100%;
 }
 .video-container video {
@@ -42,11 +50,66 @@
     width: 100%;
 }
 
-/* RWD Queries */
+body {
+    margin-top:-4px;
+}
 
-@media (max-width: 1000px) {
+.title {
+    
+    position:relative;
+    margin: 0 auto;
+  /*  color:  #faf2eb; */
+    color: #F8F8FF;
+
+}
+
+
+#title-name {
+    font-size:2.9em;
+    margin-top: -175px;
+}
+
+
+/* Text-align should not be needed.. Look into parent-child */
+#title-desc {
+    font-size: 2.1em;
+    text-align: center;
+}
+
+.about {
+   /*  background-color: #BBC4BA; */
+   background-color: #bac6b9;
+    margin-top:-2px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.about h2 {
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+}
+
+.portrait {
+    max-width: 60%;
+    border-radius: 300px;
+    display: block;
+    margin: 0 auto !important;
+}
+
+.navbar-light {
+    background-color: #E9E9E9;
+}
+
+@media (min-width: 1200px) {
+
     .video-container {
-        width: 100%;
-        height:70%;
+        height: 80%;
     }
+
+    #title-name {
+        font-size: 4.5em;
+    }
+
+
 }

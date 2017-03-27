@@ -6,59 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Ryan Gross: Developer </title>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
     <!-- JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
     <script src="js/scripts.js"> </script>
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
-    crossorigin="anonymous"></script>
+
     </head>
 
 <body>
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded ">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+   data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">RCG</a>
 
-   <nav class="navbar navbar-default navbar-fixed-top">
-       <div class="container">
-           <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                   <span class="icon-bar"> </span>
-                   <span class="icon-bar"> </span>
-                   <span class="icon-bar"> </span>
-               </button>
-       </div>
-    
-       <div class="collapse navbar-collapse" id="myNavbar">
-           <ul class="nav navbar-nav">
-               <li> <a href="#"> About </a> </li>
-               <li> <a href="#"> Projects </a> </li>
-               <li> <a href="#"> Contact </a> </li>
-           </ul>
-       </div>
-   </nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto px-4">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
+<div class="homepage-hero-module ">
+    <div class="video-container d-flex">
+        <div class="filter "></div>
+        <video autoplay loop class="fillWidth ">
+            <source src="media/header/NYC-Traffic.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="media/header/NYC-Traffic.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+      
+        <div class="align-self-center title"> 
+            <p id="title-name"> Ryan Gross </p>
+            <p id= "title-desc"> Developer </p>
+        </div>
+
+            
+        
+        <div class="poster hidden">
+            <img src="" alt="">
+        </div>
+    </div>
+
+    <div class="about">
+        <h2> About Myself </h2>
+        <img class="img-responsive portrait" src="media/Portfolio-350.jpg">
+    </div>
+       
+</div>
+
+  
+ 
+
+
+
+
+
+
+
+
+
+<!--
+<div class="clear"> </div>
 
 <div class="homepage-hero-module">
+
     <div class="video-container">
         <div class="filter"></div>
+        
         <video autoplay loop playsinline muted class="fillWidth">
             <source src="media/header/NYC-Traffic.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
             <source src="media/header/NYC-Traffic.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
+
+            <p class="centered-text align-middle"> Ryan Gross </p>
+      
+        
         <div class="poster hidden">
             <img src="PATH_TO_JPEG" alt="">
         </div>
+
     </div>
+    
 </div>
 
-
+-->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
+
+<!--
+            <img class="img-responsive portfolio" alt="Me" src="media/Portfolio.jpg">
+
+ -->
 </html>
