@@ -87,11 +87,11 @@ body {
 
 .about h2 {
     text-align: center;
-    margin: 40px 0px 40px 0px;
+    margin: 40px 0px 20px 0px;
 }
 
 .portrait {
-    max-width: 60%;
+    max-width: 40%;
     border-radius: 300px;
     display: block;
     margin: 0 auto !important;
@@ -104,12 +104,15 @@ body {
 @media (min-width: 1200px) {
 
     .video-container {
-        height: 60%;
+        height: 70%;
     }
 
     #title-name {
         font-size: 4.5em;
     }
 
+    .portrait {
+        max-width: 25%;
+    }
 
 }
